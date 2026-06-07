@@ -1,0 +1,64 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: powderblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.todo-list {
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 80%;
+    margin-block: 20px;
+    border-radius: 20px;
+}
+
+.todo-list>li {
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: lavender;
+    border-radius: 10px;
+}
+
+.todo-list>li:last-child {
+    margin-bottom: initial;
+}
+
+.sub-item {
+    margin: 20px 30px 20px;
+    list-style-type: square;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: orange;
+}
+
+a:focus {
+    outline: 2px solid black;
+}
