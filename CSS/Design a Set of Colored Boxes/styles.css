@@ -1,0 +1,36 @@
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.color-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.color-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.color1 {
+    background-color: #f7e234;
+}
+
+.color2 {
+    background-color: rgb(123, 45, 67);
+}
+
+.color3 {
+    background-color: aqua;
+}
+
+.color4 {
+    background-color: hsl(89, 10%, 80%);
+}
+
+.color5 {
+    background-color: #432e7f;
+}
