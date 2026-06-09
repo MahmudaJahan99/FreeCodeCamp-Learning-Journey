@@ -1,0 +1,84 @@
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* First input field */
+input:first-of-type {
+    border-radius: 4px;
+}
+
+/* Focus state */
+input:focus,
+textarea:focus {
+    border-color: #0077cc;
+    outline: none;
+}
+
+/* Invalid state */
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
+/* Valid state */
+input:valid,
+select:valid,
+textarea:valid {
+    border-color: green;
+}
+
+
+.radio-group {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Checked radio styling */
+.radio-group input[type="radio"]:checked {
+    border-color: blue;
+    background-color: lightblue;
+    box-shadow: 0 0 5px blue;
+}
+
+/* Change label color when selected */
+.radio-group input[type="radio"]:checked+label {
+    color: blue;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button Hover state */
+button:hover {
+    background-color: #0077cc;
+}
