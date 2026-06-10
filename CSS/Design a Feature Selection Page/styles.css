@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+}
+
+.feature-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 50px;
+}
+
+.feature-card {
+    height: 120px;
+    border: 2px solid rgb(213, 213, 213);
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.feature-card:hover {
+    border: 2px solid yellow;
+    box-shadow: 0px 0px 10px rgb(255, 255, 96);
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(213, 213, 213);
+    border-radius: 12px;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+input[type="checkbox"]:checked {
+    background-color: rgb(255, 255, 96);
+    border-color: yellow;
+}
+
+input[type="checkbox"]:checked::after {
+    content: "✓";
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+strong {
+    font-size: 20px;
+}
