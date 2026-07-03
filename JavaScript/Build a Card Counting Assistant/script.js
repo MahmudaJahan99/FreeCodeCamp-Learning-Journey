@@ -21,5 +21,3 @@ function cardCounter(card) {
     return `${count} Bet`;
   }
 }
-
-console.log(cardCounter("J"));

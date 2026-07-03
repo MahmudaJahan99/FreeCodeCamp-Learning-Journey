@@ -12,14 +12,3 @@ function maskEmail(email) {
 
   return maskedMail;
 }
-let email = "apple.pie@example.com";
-console.log(maskEmail(email));
-
-email = "freecodecamp@example.com";
-console.log(maskEmail(email));
-
-email = "info@test.dev";
-console.log(maskEmail(email));
-
-email = "user@domain.org";
-console.log(maskEmail(email));

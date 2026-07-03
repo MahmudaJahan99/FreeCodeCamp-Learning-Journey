@@ -6,7 +6,3 @@ function confirmEnding(str1, str2) {
     return false;
   }
 }
-
-console.log(confirmEnding("Bastian", "n"));
-console.log(confirmEnding("Congratulation", "on"));
-console.log(confirmEnding("Connor", "n"));
