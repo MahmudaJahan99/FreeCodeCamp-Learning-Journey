@@ -1,0 +1,18 @@
+function permuteString(str, prefix = "", results = []) {
+  // Base case
+  if (str.length === 0) {
+    results.push(prefix);
+    return results;
+  }
+
+  // Recursive case
+  for (let i = 0; i < str.length; i++) {
+    const currentChar = str[i];
+    const remaining = str.slice(0, i) + str.slice(i + 1);
+
+    permuteString(remaining, prefix + currentChar, results);
+  }
+
+  // Remove duplicates before returning
+  return [...new Set(results)];
+}
