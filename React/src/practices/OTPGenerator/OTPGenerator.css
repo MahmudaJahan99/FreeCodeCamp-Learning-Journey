@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#otp-title {
+    font-size: 30px;
+    color: #333;
+}
+
+#otp-display {
+    font-size: 25px;
+    color: #555;
+}
+
+#otp-timer {
+    font-size: 16px;
+    color: #888;
+}
+
+#generate-otp-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #383f59;
+    color: white;
+    border-radius: 5px;
+}
+
+#generate-otp-button:disabled {
+    cursor: not-allowed;
+}
