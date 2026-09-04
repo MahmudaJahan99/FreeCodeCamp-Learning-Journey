@@ -22,7 +22,7 @@ export const OTPGenerator = () => {
     }
 
     return (
-        <div className="container">
+        <div className="otp-container">
             <h1 id="otp-title">OTP Generator</h1>
 
             <h2 id="otp-display">

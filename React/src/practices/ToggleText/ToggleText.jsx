@@ -10,7 +10,7 @@ export const ToggleApp = () => {
     };
 
     return (
-        <div className="body">
+        <div className="toggle-text-body">
             <div id="toggle-container">
                 <button onClick={handleToggleVisibility} id="toggle-button">
                     {isVisible ? "Hide" : "Show"} Message

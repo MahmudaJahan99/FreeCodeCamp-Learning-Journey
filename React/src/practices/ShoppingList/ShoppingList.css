@@ -1,0 +1,66 @@
+.shopping-list-body {
+    line-height: 1.5;
+    color: #1b1b32;
+    background-color: #1b1b32;
+}
+
+.shopping-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopping-list-container {
+    background-color: #f5f6f7;
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+}
+
+h1 {
+    color: #1b1b32;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    width: 100px;
+    margin: 3px;
+    color: #1b1b32;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border-color: #feac32;
+    border-width: 3px;
+}
+
+button:hover {
+    background-image: linear-gradient(#ffcc4c, #f89808);
+}
+
+input {
+    color: #1b1b32;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+li {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.selected-item {
+    font-weight: bold;
+}
+
+@media (min-width: 425px) {
+    .shopping-list-container {
+        width: 400px;
+    }
+}

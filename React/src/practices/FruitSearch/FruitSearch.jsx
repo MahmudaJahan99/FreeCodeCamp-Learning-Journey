@@ -28,7 +28,7 @@ export function FruitsSearch() {
     }, [query]);
 
     return (
-        <div className="body">
+        <div className="fruit-search-body">
             <div id="search-container">
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="search-input">Search for fruits:</label>

@@ -17,6 +17,9 @@ const Home = () => {
                 <li><Link to="/colorPicker">Build a Color Picker App</Link></li>
                 <li><Link to="/fruitSearch">Build a Fruit Search App</Link></li>
                 <li><Link to="/otpGenerator">Build an One-Time Password Generator</Link></li>
+                <li><Link to="/applicationForm">Build a Superhero Application Form</Link></li>
+                <li><Link to="/eventRSVP">Build an Event RSVP</Link></li>
+                <li><Link to="/shoppingList">Build a Shopping List App</Link></li>
             </ol>
         </div>
     );
