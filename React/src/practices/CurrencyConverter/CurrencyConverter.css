@@ -1,0 +1,46 @@
+.currency-converter-body {
+    background-color: #0a0a23;
+    font-family: Lato, sans-serif;
+}
+
+.currency-converter-body main {
+    background-color: #1b1b32;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    margin: 50px auto;
+}
+
+.currency-converter-body main h1 {
+    margin-bottom: 16px;
+    color: #f5f6f7;
+}
+
+.conversion-display {
+    font-size: 16px;
+    color: #f5f6f7;
+    margin-bottom: 10px;
+}
+
+.currency-converter-body main input, .currency-converter-body main select {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 12px;
+    margin-top: 4px;
+    border: 1px solid #99c9ff;
+    border-radius: 4px;
+}
+
+.currency-converter-body main label {
+    color: #f5f6f7;
+}
+
+p.converted-currency {
+    font-size: 18px;
+    font-weight: bold;
+    color: #acd157;
+}

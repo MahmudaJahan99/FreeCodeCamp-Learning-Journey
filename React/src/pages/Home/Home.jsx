@@ -20,6 +20,8 @@ const Home = () => {
                 <li><Link to="/applicationForm">Build a Superhero Application Form</Link></li>
                 <li><Link to="/eventRSVP">Build an Event RSVP</Link></li>
                 <li><Link to="/shoppingList">Build a Shopping List App</Link></li>
+                <li><Link to="/currencyConverter">Build a Currency Converter App</Link></li>
+                <li><Link to="/ticTacToe">Build a Tic-Tac-Toe Game</Link></li>
             </ol>
         </div>
     );

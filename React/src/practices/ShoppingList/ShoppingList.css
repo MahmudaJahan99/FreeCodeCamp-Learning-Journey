@@ -25,7 +25,7 @@ form {
     text-align: center;
 }
 
-button {
+/* button {
     cursor: pointer;
 }
 
@@ -42,7 +42,7 @@ button {
 
 button:hover {
     background-image: linear-gradient(#ffcc4c, #f89808);
-}
+} */
 
 input {
     color: #1b1b32;

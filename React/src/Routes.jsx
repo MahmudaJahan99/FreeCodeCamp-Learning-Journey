@@ -11,6 +11,8 @@ import { OTPGenerator } from "./practices/OTPGenerator/OTPGenerator.jsx";
 import { SuperheroForm } from "./practices/SuperheroApplicationForm/SuperheroApplicationForm.jsx";
 import EventRSVP from "./practices/EventRSVP/EventRSVP.jsx";
 import ShoppingList from "./practices/ShoppingList/ShoppingList.jsx";
+import CurrencyConverter from "./practices/CurrencyConverter/CurrencyConverter.jsx";
+import TicTacToe from "./practices/TicTacToe/TicTacToe.jsx";
 
 const router = createBrowserRouter([
   {
@@ -60,6 +62,14 @@ const router = createBrowserRouter([
   {
     path: "/shoppingList",
     element: <ShoppingList />,
+  },
+  {
+    path: "/currencyConverter",
+    element: <CurrencyConverter />,
+  },
+  {
+    path: "/ticTacToe",
+    element: <TicTacToe />,
   },
 ]);
 
